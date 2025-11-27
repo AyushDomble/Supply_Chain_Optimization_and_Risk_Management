@@ -11,29 +11,29 @@ A comprehensive **data-driven dashboard** built with **Python** and **Streamlit*
 
 ## ✨ Key Features
 
-# 📊 Supply Chain KPIs
+### 📊 Supply Chain KPIs
 
 - Executive KPIs: Instant view of OTIF (On-Time-In-Full) Rate, Perfect Order Rate, and Late Delivery Risk ratio.
 - Reliability Insights: Customer-wise and category-wise late delivery risk trends.
 
-# 🔍 Interactive Data Analytics
+### 🔍 Interactive Data Analytics
 
 - Dynamic Visualizations: Plotly & Streamlit-powered interactive charts (Profit vs Risk, Order Volume Trends).
 - Risk Heatmaps: Region-level and market-level delivery-risk intensity mapping.
 - Exploratory Segmentation (Optional): Customer clusters from K-Means shown for analysis only.
 
-# 🤖 ML-Powered Delivery Risk Prediction
+### 🤖 ML-Powered Delivery Risk Prediction
 
 - Primary Model: XGBoost used inside a Scikit-learn pipeline for late delivery risk classification.
 - Robust Processing: Creates final_data_with_segments.csv even if segmentation file is missing.
 - Model Evaluation: Weighted F1, ROC-AUC, confusion matrix, precision-recall, classification report.
 
-# 🚚 Intelligent Shipping Recommendation
+### 🚚 Intelligent Shipping Recommendation
 
 - Optimal Shipping Suggestions: Chooses best shipping mode using ↓ delivery risk × ↑ profit per scheduled day.
 - Profit Efficiency Metric: Uses profit_per_day_scheduled in recommendation logic.
 
-# ⚙️ Data Operations & Usability
+### ⚙️ Data Operations & Usability
 
 - Smart Filtering: Filter by market, region, shipping mode, date, weekday/weekend.
 - CSV Export: Export filtered or analyzed views as CSV.
