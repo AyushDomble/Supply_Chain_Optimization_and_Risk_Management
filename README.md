@@ -10,11 +10,34 @@ A comprehensive **data-driven dashboard** built with **Python** and **Streamlit*
 ---
 
 ## ✨ Key Features
-- **Executive KPIs**: Quick insights with OTIF (On-Time-In-Full) Rate & Perfect Order Rate.  
-- **Interactive Analytics**: Dynamic charts & geographical heatmaps to spot high-risk regions.  
-- **ML-Powered Risk Prediction**: Real-time late delivery risk detection with Random Forest.  
-- **Optimal Shipping Recommendation**: Suggests best shipping mode balancing risk & profit.  
-- **Dynamic Filtering & Export**: Filter by region, mode, date & export results as CSV.  
+
+# 📊 Supply Chain KPIs
+
+- Executive KPIs: Instant view of OTIF (On-Time-In-Full) Rate, Perfect Order Rate, and Late Delivery Risk ratio.
+- Reliability Insights: Customer-wise and category-wise late delivery risk trends.
+
+# 🔍 Interactive Data Analytics
+
+- Dynamic Visualizations: Plotly & Streamlit-powered interactive charts (Profit vs Risk, Order Volume Trends).
+- Risk Heatmaps: Region-level and market-level delivery-risk intensity mapping.
+- Exploratory Segmentation (Optional): Customer clusters from K-Means shown for analysis only.
+
+# 🤖 ML-Powered Delivery Risk Prediction
+
+- Primary Model: XGBoost used inside a Scikit-learn pipeline for late delivery risk classification.
+- Robust Processing: Creates final_data_with_segments.csv even if segmentation file is missing.
+- Model Evaluation: Weighted F1, ROC-AUC, confusion matrix, precision-recall, classification report.
+
+# 🚚 Intelligent Shipping Recommendation
+
+- Optimal Shipping Suggestions: Chooses best shipping mode using ↓ delivery risk × ↑ profit per scheduled day.
+- Profit Efficiency Metric: Uses profit_per_day_scheduled in recommendation logic.
+
+# ⚙️ Data Operations & Usability
+
+- Smart Filtering: Filter by market, region, shipping mode, date, weekday/weekend.
+- CSV Export: Export filtered or analyzed views as CSV.
+- Error-Safe Feature Handling: Handles missing risk-rate values safely, avoids chained assignment warnings.
 
 ---
 
@@ -67,10 +90,25 @@ supply_chain_optimization/
 ---
 
 ## 🛠 Tech Stack
-- **Backend**: Python, Pandas, Scikit-learn  
-- **Machine Learning**: Random Forest (classification), K-Means (segmentation), Prophet (forecasting)  
-- **Dashboard**: Streamlit  
-- **Visualization**: Plotly Express  
+- **Core :**
+- Programming Language: Python
+- Data Processing: Pandas, NumPy
+- Backend / Pipeline Scripts: Python Modules
+  
+- **Machine Learning & Analytics :**
+- Classification Model: XGBoost
+- Customer Segmentation: K-Means (Scikit-learn)
+- Demand Forecasting: Prophet (Meta / Facebook)
+- Time-Series OR Forecasting (Analysis only): Prophet
+  
+- **Dashboard & Visualization :**
+- Dashboard UI: Streamlit
+- Interactive Visualizations: Plotly Express, Plotly Graph Objects
+
+- **Model Deployment & Utilities :**
+- Experiment Tracking / Model Saving: Joblib, Pickle
+- Notebook Environment: Jupyter .ipynb
+- Hyperparameter Tuning: Scikit-learn GridSearchCV
 
 ---
 
