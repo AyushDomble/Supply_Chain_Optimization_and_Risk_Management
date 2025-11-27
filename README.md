@@ -1,3 +1,16 @@
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue?style=for-the-badge&logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit%20Learn-1.0%2B-orange?style=for-the-badge&logo=scikitlearn)
+![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-red?style=for-the-badge&logo=xgboost)
+![KMeans](https://img.shields.io/badge/Clustering-K--Means-yellow?style=for-the-badge)
+![Prophet](https://img.shields.io/badge/Forecasting-Prophet-purple?style=for-the-badge&logo=facebook)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.22%2B-FF4B4B?style=for-the-badge&logo=streamlit)
+![Plotly](https://img.shields.io/badge/Plotly%20Express-5.0%2B-blue?style=for-the-badge&logo=plotly)
+![Joblib](https://img.shields.io/badge/Model%20Saving-Joblib-black?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+
+---
+
 # 📦 Supply Chain Optimization & Risk Management Dashboard
 
 A comprehensive **data-driven dashboard** built with **Python** and **Streamlit** to analyze supply chain performance, predict late delivery risks, and provide actionable insights for logistics management.
