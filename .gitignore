@@ -1,0 +1,11 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+
+# Keep folders but ignore large generated files inside them
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+models/*.pt
