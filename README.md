@@ -67,6 +67,7 @@ https://supply-chain-optimization-and-risk-management.streamlit.app/
   <a href="dashboard/assets/demo6.png"><img src="dashboard/assets/demo6.png" width="260"></a>
   <a href="dashboard/assets/demo8.png"><img src="dashboard/assets/demo8.png" width="260"></a>
 </p>
+
 ---
 
 ## 📂 Project Structure
