@@ -18,7 +18,7 @@ A comprehensive **data-driven dashboard** built with **Python** and **Streamlit*
 ---
 
 ## 🚀 Live Demo  
-[Add your Streamlit Community Cloud deployment link here]
+https://supply-chain-optimization-and-risk-management.streamlit.app/
 
 ---
 
