@@ -60,11 +60,11 @@ https://supply-chain-optimization-and-risk-management.streamlit.app/
   <a href="dashboard/assets/demo1.png"><img src="dashboard/assets/demo1.png" width="260"></a>
   <a href="dashboard/assets/demo2.png"><img src="dashboard/assets/demo2.png" width="260"></a>
   <a href="dashboard/assets/demo3.png"><img src="dashboard/assets/demo3.png" width="260"></a>
-  <a href="dashboard/assets/demo4.png"><img src="dashboard/assets/demo1.png" width="260"></a> 
-  <a href="dashboard/assets/demo5.png"><img src="dashboard/assets/demo2.png" width="260"></a>
-  <a href="dashboard/assets/demo6.png"><img src="dashboard/assets/demo3.png" width="260"></a>
-  <a href="dashboard/assets/demo7.png"><img src="dashboard/assets/demo1.png" width="260"></a>
-  <a href="dashboard/assets/demo8.png"><img src="dashboard/assets/demo2.png" width="260"></a>
+  <a href="dashboard/assets/demo4.png"><img src="dashboard/assets/demo4.png" width="260"></a> 
+  <a href="dashboard/assets/demo5.png"><img src="dashboard/assets/demo5.png" width="260"></a>
+  <a href="dashboard/assets/demo6.png"><img src="dashboard/assets/demo6.png" width="260"></a>
+  <a href="dashboard/assets/demo7.png"><img src="dashboard/assets/demo7.png" width="260"></a>
+  <a href="dashboard/assets/demo8.png"><img src="dashboard/assets/demo8.png" width="260"></a>
 </p>
 
 ---
