@@ -55,41 +55,12 @@ https://supply-chain-optimization-and-risk-management.streamlit.app/
 ---
 
 ## 📸 Dashboard Preview  
-   
-<div align="center" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;padding:10px;">
-  <img src="dashboard/assets/demo1.png"/>
-  <img src="dashboard/assets/demo2.png"/>
-  <img src="dashboard/assets/demo3.png"/>
-  <img src="dashboard/assets/demo4.png"/>
-</div>
-
-
 
 <p align="center">
   <a href="dashboard/assets/demo1.png"><img src="dashboard/assets/demo1.png" width="260"></a>
   <a href="dashboard/assets/demo2.png"><img src="dashboard/assets/demo2.png" width="260"></a>
   <a href="dashboard/assets/demo3.png"><img src="dashboard/assets/demo3.png" width="260"></a>
 </p>
-
-
-
-![Dashboard walkthrough](dashboard/assets/dashboard_walkthrough.gif)
-
-
-
-<details>
-  <summary>Prediction Form & Risk Output</summary>
-
-  ![Prediction Form](dashboard/assets/demo1.png)
-</details>
-
-<details>
-  <summary>Category Performance</summary>
-
-  ![Category Performance](dashboard/assets/demo2.png)
-</details>
-
-
 
 ---
 
